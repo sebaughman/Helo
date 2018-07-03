@@ -1,8 +1,4 @@
-<img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
-# Live Example
-
-<a href="https://helo.devmountain.com/">helo.devmountain.com</a>
 
 # Project Summary
 
@@ -14,37 +10,6 @@ After completing the project, host your project on https://zeit.co/ and provide 
 
 Good luck and work hard!
 
-# Color Palette & Font
-
-<img src="https://github.com/DevMountain/simulation-3/blob/master/assets/style-guide.png" />
-
-<b><a href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans">Google Font - Open Sans</a></b>
-
-# Application Design
-
-## Auth View
-
-<img src="https://github.com/DevMountain/simulation-3/blob/master/views/auth.png" />
-
-## Dashboard View ( with and without recommendations )
-
-<img src="https://github.com/DevMountain/simulation-3/blob/master/views/dashboard-no-recommended.png" />
-
-<img src="https://github.com/DevMountain/simulation-3/blob/master/views/dashboard-recommended-gender.png" />
-
-## Profile View
-
-<img src="https://github.com/DevMountain/simulation-3/blob/master/views/profile.png" />
-
-## Search View
-
-<img src="https://github.com/DevMountain/simulation-3/blob/master/views/search-no-filter-top.png" />
-
-<img src="https://github.com/DevMountain/simulation-3/blob/master/views/search-no-filter-bottom.png" />
-
-<img src="https://github.com/DevMountain/simulation-3/blob/master/views/search-with-friends.png" />
-
-<img src="https://github.com/DevMountain/simulation-3/blob/master/views/search-filter.png" />
 
 # Technical Requirements - Front-end
 
