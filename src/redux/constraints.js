@@ -1,0 +1,5 @@
+export const SET_STATE = 'SET_STATE'
+export const SET_FRIENDS = 'SET_FRIENDS'
+export const UPDATE_USER = 'UPDATE_USER'
+export const ADD_FRIEND = 'ADD_FRIEND'
+export const REMOVE_FRIEND = 'REMOVE_FRIEND' 

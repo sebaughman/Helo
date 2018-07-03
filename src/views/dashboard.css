@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F2F2F2;
+}
+.dashboardBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.dashboardHeader{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+   
+}
+.profileBox{
+    min-width: 380px;
+    max-width: 420px;
+    height: 170px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.profileImg{
+    height: 130px;
+    width: 130px;
+    border: 3px solid #ff9770;
+    margin-left: 15px;
+}
+.nameDiv{
+    margin-left: 20px;
+    width: 50%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+
+}
+.nameDiv h3{
+    font-size: 1.8em;
+    margin: 0px;
+    
+}
+.nameDiv button{
+    height: 40px;
+    width: 160px;
+    font-size: 1.2em;
+}
+.greyButton{
+    border-radius: 1px;
+    background-image: radial-gradient(circle at 50% 0, #ffffff, #f1eceb);
+    border: solid 1px #ccc3c3
+}
+.darkGreyButton{
+    border-radius: 1px;
+    background-image: radial-gradient(circle at 50% -46%, #737373, #403d39);
+    border: none;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.appInfo{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    max-height:170px;
+    margin-left: 10px;
+    min-width: 350px;
+    padding: 20px;
+    font-size: 1.5em;
+}
+.friendsContainer{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    width: 60%;
+    margin-top: 10px;
+    min-width: 380px;
+    
+    
+}
+.recommendedFriendsContainer{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    width: 60%;
+    margin: 10px;
+    min-width: 380px;
+}
+.titleDiv{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleDiv select{
+    margin-left: 5px;
+    height: 25px;
+    font-size: 1em;
+}
+.titleDiv h3{
+    margin: 0;
+    font-size: 1.5em;
+}
+.friends{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.recommendedFriends{
+    margin:15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media(max-width: 1600px){
+    .appInfo{
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width:1440px){
+    .dashboardHeader{
+        width: 80%;
+    }
+    .friendsContainer{
+        width:80%;
+    }
+    .recommendedFriendsContainer{
+        width:80%;
+    }
+}
+
+@media(max-width: 1000px){
+    .appInfo{
+        font-size:1em;
+       
+    }
+   .friendsContainer{
+       min-width: 743px;
+   }
+   .recommendedFriendsContainer{
+        min-width: 743px;
+   }
+}
+
+@media(max-width: 745px){
+    .appInfo{
+        margin-left: 0px;
+        max-width: 420px;
+        min-width: 380px;
+        margin-top: 10px;
+    }
+    .dashboardHeader{
+        flex-wrap: wrap;
+    }
+    .friendsContainer{
+        min-width: 380px;
+    }
+    .recommendedFriendsContainer{
+        min-width: 380px;
+    }
+}

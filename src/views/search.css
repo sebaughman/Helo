@@ -1,0 +1,102 @@
+.searchBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.searchContainer{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.searchHeader{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+ 
+}
+.searchHeader input, .searchHeader select{
+    width: 180px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.searchButtonContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.searchButtonContainer button{
+    width: 150px;
+    height: 35px;
+    font-size: 1em;
+    margin-top: 4px;
+}
+.users{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pageButtonsContainer{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-image:linear-gradient(97deg,#ff7a6e, #ff9770);
+    box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.pageButtonsContainer button{
+    width: 50px;
+    height: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none
+}
+.pageButtonSelected{
+    color: white;
+    background-image: radial-gradient(circle at 50% -46%, #737373, #403d39);
+  
+}
+@media(max-width:1440px){
+  
+    .searchContainer{
+        width:80%;
+    }
+}
+
+@media(max-width: 1200px){
+    .searchHeader input, .searchHeader select{
+        width: 150px;
+    }
+}
+@media(max-width: 1000px){
+    
+   .searchContainer{
+       min-width: 743px;
+
+   }
+  
+  
+}
+@media(max-width: 745px){
+    
+    .searchContainer{
+        min-width: 380px;
+    }
+   
+}
